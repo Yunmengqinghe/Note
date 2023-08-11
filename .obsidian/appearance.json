@@ -1,0 +1,12 @@
+{
+  "accentColor": "",
+  "cssTheme": "Big Sur Aesthetic",
+  "theme": "moonstone",
+  "interfaceFontFamily": "微软雅黑,等线",
+  "textFontFamily": "等线,微软雅黑",
+  "monospaceFontFamily": "Consolas",
+  "baseFontSize": 23,
+  "translucency": false,
+  "showViewHeader": false,
+  "nativeMenus": false
+}

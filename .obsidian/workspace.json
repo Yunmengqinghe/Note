@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "46d2cf86d5aabbd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "6011641cc150e93d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcaf592c44d695e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/git基本命令.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a95def325ecf0633",
+    "type": "split",
+    "children": [
+      {
+        "id": "287689709c40ea5a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f4d5d1840038075",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "9bd4db68edad7ee2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "64ce8029de8578fe",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "b03c1b44a0df5861",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 255.5
+  },
+  "right": {
+    "id": "16e8f6d0c0187780",
+    "type": "split",
+    "children": [
+      {
+        "id": "598dd1e8325ee7ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4900917aa55b7950",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git/git基本命令.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d7fc7721dc3292ea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Git/git基本命令.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ac7d6a1791ba05b6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a48603e740bd703d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Git/git基本命令.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
+    }
+  },
+  "active": "bcaf592c44d695e6",
+  "lastOpenFiles": [
+    "Git/远程仓库.md",
+    "Git/git环境配置.md",
+    "Git/分支.md",
+    "Unity学习/C Sharp/基础/键盘输入.md",
+    "README.md",
+    "Unity学习/C Sharp/基础/接口.md",
+    "Unity学习/C Sharp/基础/结构体.md",
+    "Unity学习/C Sharp/基础/基础类型.md",
+    "Unity学习/C Sharp/基础/类型转换.md",
+    "Picture/08f790529822720e95be71f09b8b2a4cf21fab17.webp",
+    "Linux/命令行.md",
+    "Linux/ubuntu使用.md",
+    "LeetCode/初级算法.md",
+    "Git/git基本命令.md",
+    "EasyX/基础.md",
+    "C语言学习笔记/扩展知识/创建头文件（VS）.md",
+    "C语言学习笔记/扩展知识/快速排序.md",
+    "C语言学习笔记/扩展知识/位运算.md",
+    "C语言学习笔记/扩展知识/指针函数(返回指针的函数).md",
+    "C语言学习笔记/扩展知识/补码.md",
+    "C语言学习笔记/扩展知识/共用体.md",
+    "C语言学习笔记/基础知识/数组.md",
+    "C语言学习笔记/基础知识/三元运算符.md",
+    "C语言学习笔记/基础知识/数组排序总结.md",
+    "C语言学习笔记/基础知识/函数.md",
+    "C语言学习笔记/基础知识/选择循环.md",
+    "C语言学习笔记/代码基础/基础知识.md",
+    "Picture/Pasted image 20230718144736.png",
+    "Picture/Pasted image 20230718155131.png",
+    "Picture/Pasted image 20230718144607.png",
+    "Picture/Pasted image 20230719000653.png",
+    "Picture/Pasted image 20230804015745.png",
+    "Picture/Pasted image 20230807005715.png",
+    "Picture/a2b13fd667dbdcb471d690cc5eba500.jpg",
+    "C++学习笔记/友元",
+    "Picture/Pasted image 20230807004840.png",
+    "Picture/Pasted image 20230718144652.png",
+    "C++学习笔记/类与对象",
+    "C++学习笔记/引用",
+    "My_Note",
+    "Picture/未命名.canvas",
+    "Git",
+    "未命名 2.canvas",
+    "未命名 3.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "Java",
+    "Picture",
+    "C++学习笔记/指针",
+    "C++学习笔记/数组",
+    "C++学习笔记/数据类型",
+    "服务贸易与创新发展/第一章/未命名.canvas"
+  ]
+}

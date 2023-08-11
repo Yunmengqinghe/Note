@@ -1,0 +1,26 @@
+{
+  "promptDelete": true,
+  "attachmentFolderPath": "Picture",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "source",
+  "vimMode": false,
+  "showIndentGuide": false,
+  "showInlineTitle": true,
+  "foldIndent": true,
+  "showLineNumber": false,
+  "focusNewTab": true,
+  "strictLineBreaks": true,
+  "readableLineLength": true,
+  "rightToLeft": false,
+  "autoPairBrackets": true,
+  "smartIndentList": true,
+  "foldHeading": true,
+  "showFrontmatter": false
+}
