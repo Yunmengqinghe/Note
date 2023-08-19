@@ -26,6 +26,11 @@ option:
 	--pretty=oneline //将提交信息显示为一行
 	--abbrev-commit //使输出的commit更简短
 	--graph //以图表的形式显示
+
+5.
+git config --global core.autocrlf true
+//Git 可以在你提交时自动地把回车（CR）和换行（LF）转换成换行（LF），而在检出代码时把换行（LF）转换成回车（CR）和换行（LF）
+
 ```
 
 ## 三、版本回退

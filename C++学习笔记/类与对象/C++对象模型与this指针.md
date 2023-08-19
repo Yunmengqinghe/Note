@@ -1,9 +1,7 @@
 ## 成员变量和成员函数分开储存
 + 在Cpp中，类内的成员变量和成员函数分开储存，只有非静态成员变量才属于类的对象上
-+ 示例
 ```Cpp
-class Person
-{
+class Person {
 public:
 	//非静态成员变量占对象空间
 	int _a;
@@ -16,7 +14,7 @@ public:
 	{
 		
 	}
-}
+};
 ```
 
 ## this指针概念
@@ -40,7 +38,7 @@ public:
 	//如果是Person Age_add(Person& p)的形式，那么返回的相当于是一个新的对象，并且使用了拷贝构造函数
 
 	int age;
-}
+};
 
 int main()
 {
@@ -55,7 +53,6 @@ int main()
 ## 空指针访问成员函数
 + Cpp中空指针也可以调用成员函数，但是也要注意有没有用到this指针
 + 如果用到了this指针，要加以判断保证代码的健壮性
-+ 示例
 ```Cpp
 class Person
 {
@@ -71,11 +68,11 @@ public:
 		cout << "age = " << age << endl;
 	}
 	int age;
-}
+};
 
 int main()
 {
-	Person p = NULL;
+	Person* p = NULL;
 	p->ShowAge();
 	return 0;
 }
@@ -106,7 +103,7 @@ public:
 
 	//加特殊的声明能使其值在常函数中也能修改
 	mutable int hight;
-}
+};
 ```
 
 2. 常对象
