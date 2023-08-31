@@ -22,5 +22,7 @@
   "autoPairBrackets": true,
   "smartIndentList": true,
   "foldHeading": true,
-  "showFrontmatter": false
+  "showFrontmatter": false,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest"
 }

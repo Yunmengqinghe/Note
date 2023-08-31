@@ -31,6 +31,9 @@ option:
 git config --global core.autocrlf true
 //Git 可以在你提交时自动地把回车（CR）和换行（LF）转换成换行（LF），而在检出代码时把换行（LF）转换成回车（CR）和换行（LF）
 
+6.
+git diff
+//显示修改的地方
 ```
 
 ## 三、版本回退
