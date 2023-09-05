@@ -44,3 +44,145 @@
 1. 容器：`vector`
 2. 算法：`for_each`
 3. 迭代器：`vector<int>::iterator`
+
+```cpp
+#include <vector>
+#include <algorithm>
+
+void MyPrint(int val) 
+{ 
+cout << val << endl; 
+} 
+
+int main() 
+{ 
+	//创建vector容器对象，并且通过模板参数指定容器中存放的数据的类型 
+	vector v; 
+	
+	//向容器中放数据 
+	v.push_back(10); 
+	v.push_back(20); 
+	v.push_back(30);
+	v.push_back(40);
+	
+	//每一个容器都有自己的迭代器，迭代器是用来遍历容器中的元素 
+	//v.begin()返回迭代器，这个迭代器指向容器中第一个数据 
+	//v.end()返回迭代器，这个迭代器指向容器元素的最后一个元素的下一个位置 
+	//vector::iterator 拿到vector这种容器的迭代器类型 
+	vector::iterator pBegin = v.begin(); 
+	vector::iterator pEnd = v.end(); 
+	
+	//第一种遍历方式： 
+	while (pBegin != pEnd) 
+	{
+		cout << *pBegin << endl; 
+		pBegin++; 
+	} 
+	
+	//第二种遍历方式： 
+	for (vector::iterator it = v.begin(); it != v.end(); it++) 
+	{ 
+		cout << *it << endl; 
+	} 
+	cout << endl;
+
+	//第三章遍历方式，利用STL提供遍历算法
+	for_each(v.begin(), v.end(), myPrint);
+}
+```
+
+### vector存放自定义数据类型
+1. 存类型
+```cpp
+#include <vector>
+#include <algorithm>
+class Person
+{
+public:
+	Person(string name, int age)
+	{
+		this->name = name;
+		this->age = age;
+	}
+	string name;
+	int age;
+}
+
+int main()
+{
+	vector<Person> v;
+
+	Person p1("cxk", 10);
+	Person p2("abc", 11);
+
+	v.push_back(p1);
+	v.push_pack(p2);
+
+	for(vector<Person>::iterator it = v.begin(); it != v.end; it++)
+	{
+		//解引用之后是个Person的数据类型(看<>内)
+		cout << (*it).name << endl;
+
+		//it是指向v的一个指针，类型为Person*
+		cout << it->age <<endl;
+	}
+	
+	return 0;
+}
+```
+
+2. 存指针
+```cpp
+int main()
+{
+	vector<Person*> v;
+
+	Person p1("cxk", 10);
+	Person p2("abc", 11);
+
+	v.push_back(&p1);
+	v.push_pack(&p2);
+
+	for(vector<Person*>::iterator it = v.begin(); it != v.end; it++)
+	{
+		cout << (*it)->name << endl;
+	}
+	
+	return 0;
+}
+```
+
+### vector容器嵌套容器
+```cpp
+//容器嵌套容器
+int main()
+{
+	vector<vector<int>> v;
+
+	//创建小容器
+	vector<int> v1;
+	vector<int> v2;
+
+	//给小容器赋值
+	for(int i = 0; i < 2; i++)
+	{
+		v1.push_back(i);
+		v2.push_back(i + 1);
+	}
+	
+	//给大容器赋值
+	v.push_back(v1);
+	v.push_back(v2);
+
+	//通过大容器，把所有的数据输出
+	for(vector<vector<int>>::iterator it = v.begin(); it != v.end(); it++)
+	{
+		for(vector<int>::iterator vit = (*it).begin(); vit != *(it).end(); vit++)
+		{
+			cout << *vit << endl;
+		}
+		cout << endl;
+	}
+
+}
+```
