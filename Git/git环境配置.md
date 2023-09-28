@@ -21,4 +21,4 @@ alias git-log=='git log --pretty=oneline -- all --graph --abbrev-commit'
 alias ll='ls -al'
 ```
 3. 执行配置
-`soure ~/.brshrc`
+`soure ~/.bashrc`
