@@ -2,7 +2,7 @@
 + 将素材图片的Pixeis Per Unit改成16
 + 将Sprite Mode改成Multiple
 + 点击Sprite Editor -> Apply -> 放大Sprite Editor
-+ 左上角点击Slice -> Type改成Grid By Cell Size -> 将Pixel Size改成 x:16 , y:16 -> 点击Slice -> 点击右上角的Apply
++ 左上角点击Slice -> Type改成Grid By Cell Size（其他方式也可以，根据需要选用） -> 将Pixel Size改成 x:16 , y:16 -> 点击Slice -> 点击右上角的Apply
 
 ## Tilemap 
 + 在Hierarchy下右键选择 2D Object -> Tilemap -> Rectangular

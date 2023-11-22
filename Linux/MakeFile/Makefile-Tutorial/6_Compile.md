@@ -123,7 +123,7 @@ int add(int a, int b);
 ```c++
 int add(int a, int b)
 {
-    return a+b;
+    return a + b;
 }
 ```
 + minus.hpp

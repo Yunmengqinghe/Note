@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "47fd7abfacc1b821",
+        "id": "8cbb67d2a6f087ea",
         "type": "tabs",
         "children": [
           {
-            "id": "6a6b73bd138538db",
+            "id": "5e47162e5d767dee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "C++学习笔记/模板和STL/string.md",
-                "mode": "source",
-                "source": false
+                "file": "数据结构/线性表/2_顺序表的定义.pdf"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++学习笔记/模板和STL/string.md",
+                "file": "数据结构/线性表/2_顺序表的定义.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++学习笔记/模板和STL/string.md",
+                "file": "数据结构/线性表/2_顺序表的定义.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++学习笔记/模板和STL/string.md"
+                "file": "数据结构/线性表/2_顺序表的定义.pdf"
               }
             }
           },
@@ -166,53 +164,54 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6a6b73bd138538db",
+  "active": "5e47162e5d767dee",
   "lastOpenFiles": [
-    "QT/学生管理系统界面开发.md",
-    "Picture/Pasted image 20231028002755.png",
-    "Picture/Pasted image 20231027233339.png",
-    "Picture/Pasted image 20231027233100.png",
-    "Picture/Pasted image 20231027233040.png",
-    "Picture/Pasted image 20231027232856.png",
-    "Unity学习/入组培训第一部分.md",
-    "Unity学习/Temp.md",
-    "数据结构/栈和队列/10_栈在表达式求值中的应用(下).pdf",
-    "数据结构/栈和队列/9_栈在表达式求值中的应用(上).pdf",
-    "数据结构/栈和队列/8_栈在括号匹配中的应用.pdf",
-    "数据结构/栈和队列/7_双端队列.pdf",
-    "数据结构/栈和队列/6_队列的链式实现.pdf",
-    "数据结构/栈和队列/5_队列的顺序实现.pdf",
-    "C++学习笔记/模板和STL/queue.md",
-    "C++学习笔记/模板和STL/string.md",
-    "C++学习笔记/模板和STL/stack.md",
-    "C++学习笔记/模板和STL/deque.md",
-    "Unity学习/小组要求.md",
-    "Unity学习/Blender/快捷键.md",
-    "Unity学习/Blender/界面.md",
-    "Picture/Pasted image 20231019233148.png",
-    "Picture/Pasted image 20231019232941.png",
-    "Picture/Pasted image 20231019232537.png",
-    "Picture/Pasted image 20231019232416.png",
-    "Picture/Pasted image 20231019232142.png",
-    "C++学习笔记/类与对象/运算符重载.md",
-    "C++学习笔记/引用.md",
-    "C++学习笔记/文件操作.md",
+    "数据结构/线性表/9_双链表.pdf",
+    "数据结构/线性表/8_单链表的建立.pdf",
+    "数据结构/线性表/7_单链表的查找.pdf",
+    "数据结构/线性表/6_单链表的插入删除.pdf",
+    "数据结构/线性表/5_单链表的定义.pdf",
+    "数据结构/线性表/4_顺序表的查找.pdf",
+    "数据结构/线性表/3_顺序表的插入删除.pdf",
+    "数据结构/线性表/2_顺序表的定义.pdf",
+    "数据结构/线性表/1_线性表的定义和基本操作.pdf",
+    "Picture/Pasted image 20231117235920.png",
+    "Picture/State Machine System Classes.png",
+    "Picture/Pasted image 20231019230739.png",
+    "Picture/Pasted image 20231019230546.png",
+    "Picture/Pasted image 20231019230324.png",
+    "Picture/Pasted image 20230925202242.png",
+    "Picture/Pasted image 20230914092014.png",
+    "Picture/Pasted image 20230817145025.png",
+    "Picture/Pasted image 20230817145007.png",
+    "Picture/Pasted image 20230717233313.png",
+    "Unity学习/Prim算法生成迷宫.md",
+    "Unity学习/C Sharp/C Sharp脚本/相机跟随.md",
+    "Unity学习/Unity/Tilemap & Tile Palette.md",
+    "Unity学习/Unity/Sound Effects & Background Music.md",
+    "Unity学习/Unity/Rotating Saws.md",
+    "Unity学习/Unity/Player Death Logic.md",
+    "Unity学习/Unity/Moving Platforms.md",
+    "Unity学习/Unity/Gun Model.md",
+    "Unity学习/Unity/Grounding Check Using Boxcast.md",
+    "Unity学习/C Sharp/基础/基础类型.md",
+    "Unity学习/C Sharp/基础/接口.md",
+    "Unity学习/C Sharp/基础/键盘输入.md",
+    "Unity学习/C Sharp/基础/基础详解.md",
+    "Unity学习/C Sharp/C Sharp脚本/Gun Model Script.md",
+    "Linux/MakeFile/Makefile-Tutorial/8_SharedLibrary.md",
+    "Linux/MakeFile/Makefile-Tutorial/7_StaticLibrary.md",
+    "C语言学习笔记/扩展知识/位运算.md",
+    "C语言学习笔记/扩展知识/补码.md",
+    "C++学习笔记/基础/分文件编写.md",
+    "C++学习笔记/基础/输入输出.md",
+    "C++学习笔记/基础/数组.md",
+    "C++学习笔记/基础/文件操作.md",
     "C++学习笔记/函数.md",
     "C++学习笔记/内存分区模型.md",
-    "C++学习笔记/类与对象/对象的初始化及清理.md",
-    "C++学习笔记/类与对象/多态.md",
-    "C++学习笔记/类与对象/封装.md",
-    "C++学习笔记/类与对象/继承.md",
-    "C++学习笔记/类与对象/C++对象模型与this指针.md",
-    "C++学习笔记/基础/文件操作.md",
-    "数据结构/树和二叉树/6_二叉树的先中后序遍历.pdf",
-    "数据结构/树和二叉树/5_二叉树的存储结构.pdf",
-    "数据结构/树和二叉树/7_二叉树的层次遍历.pdf",
-    "C++学习笔记/模板和STL/STL入门.md",
-    "数据结构/树和二叉树/8_由遍历序列构造二叉树.pdf",
-    "C++学习笔记/模板和STL/模板编程.md",
-    "Unity学习/C Sharp/C Sharp脚本/Animation Script.md",
-    "Unity学习/Unity/Animation & Animator.md",
+    "C++学习笔记/文件操作.md",
+    "数据结构/图/2_邻接矩阵法.pdf",
+    "数据结构/图/3_邻接表法.pdf",
     "Picture/未命名.canvas",
     "未命名 2.canvas",
     "未命名 3.canvas",
