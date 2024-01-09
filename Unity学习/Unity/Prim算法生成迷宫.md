@@ -1,5 +1,5 @@
 
-![[Pasted image 20231117235920.png]]
+![[Prim Creat Maze.png]]
 ## 算法详解
 ### 一、初始化
 1. 初始化待选路点链表 pointList
